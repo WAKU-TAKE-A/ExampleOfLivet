@@ -19,5 +19,8 @@ class ExampleMain(Window):
         wpf.LoadComponent(self, fn_v)
         print('Init window.')
 
+def RunExample():
+    Application().Run(ExampleMain())
 
-Application().Run(ExampleMain())
+if __name__ == '__main__':
+    Application().Run(ExampleMain())

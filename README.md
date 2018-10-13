@@ -6,7 +6,7 @@ Example of Livet in Ironpython script.
 
 * `ExampleOfLivet.sln`
   * To install LivetCask.
-  * To generate `opencvsharp` package.
+  * To generate `livet` package.
 
 ## Notes on execution
 
