@@ -11,7 +11,7 @@ Example of Livet in Ironpython script.
 ## Notes on execution
 
 * Open `ExampleOfLivet.sln`.
-* Install LivetCask with NuGet.
+* Install LivetCask with NuGet. Select version 1.3.1.
 * Build.
 * Copy the `x64/debug/livet` or `x64/release/livet` folder to IronPython's `Lib` folder.
 * What is needed is only the `__init__.py`, `Livet.dll`, `Microsoft.Expression.Interactions.dll` and `System.Windows.Interactivity.dll`.

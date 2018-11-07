@@ -32,10 +32,11 @@
 	},
 
 	"DelegateCommand": {
-		"prefix": "lvcomn",
-		"body": [
 			"# ${1:name} command.",
-			"self.${1:name}Command = ViewModelCommand(self.${1:name})"
+			"self.${1:name}Command = ViewModelCommand(self.${1:name})",
+			"",
+			"def ${1:name}(self):",
+			"    pass"
 		],
 		"description": "Delegate command for livet package."
 	}
