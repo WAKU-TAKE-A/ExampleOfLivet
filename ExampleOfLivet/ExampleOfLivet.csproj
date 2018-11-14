@@ -60,7 +60,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <None Include="example_v.xaml">
+    <None Include="..\ExampleOfLivet_ipy\example_v.xaml">
+      <Link>example_v.xaml</Link>
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -97,10 +98,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="example_main.py">
+    <None Include="..\ExampleOfLivet_ipy\example_main.py">
+      <Link>example_main.py</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="example_vm.py">
+    <None Include="..\ExampleOfLivet_ipy\example_vm.py">
+      <Link>example_vm.py</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
