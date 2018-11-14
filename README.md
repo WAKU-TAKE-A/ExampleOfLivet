@@ -1,6 +1,6 @@
 # Example of Livet (for 64bit)
 
-Example of Livet in Ironpython script.  
+Example of Livet in IronPython script.  
 
 ## File
 
@@ -21,4 +21,6 @@ Example of Livet in Ironpython script.
 ```
 from livet import *
 import example_main
+
+example_main.RunExample()
 ```
