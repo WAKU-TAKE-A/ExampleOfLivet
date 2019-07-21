@@ -12,7 +12,8 @@ The library of C# is used. Requires VisualStudio 2017 or higher.
 ## Notes on execution
 
 * Open "ExampleOfLivet.sln".
-* Install "LivetCask" with NuGet. Select version 1.3.1. -> Build -> Uninstall -> Install 2.2.1.
+* Install "Microsoft.SDK.Expression.Blend" with NuGet.
+* Install "LivetCask" with NuGet.
 * Build.
 * Copy the "x64/debug/livet" or "x64/release/livet" folder to IronPython's "Lib" folder.
 * Environment variable "IRONPYTHON_HOME" is required. It is the installation location of IronPython.
